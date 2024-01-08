@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const [robots, setRobots] = useState([]);
   const [searchfield, setSearchfield] = useState("");
-  const [count, setCount] = useState(0); // for demo purposes
+
 
   useEffect(() => {
     const fetchData = async () => {
